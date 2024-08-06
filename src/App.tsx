@@ -6,7 +6,7 @@ import Signup from "./pages/Signup";
 function App() {
   return (
     <BrowserRouter>
-      <div className="text-3xl font-bold underline">
+      <div className="">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/signin" element={<Signin />} />
